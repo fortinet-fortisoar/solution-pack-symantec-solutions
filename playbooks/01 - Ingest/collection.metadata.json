@@ -1,0 +1,15 @@
+{
+    "@context": "\/api\/3\/contexts\/WorkflowCollection",
+    "@type": "WorkflowCollection",
+    "name": "01 - Ingest",
+    "description": null,
+    "visible": true,
+    "image": null,
+    "uuid": "5ca04672-b2fb-4eff-b9ae-c1968b7886d8",
+    "id": 103,
+    "createUser": "\/api\/3\/people\/f661cf65-91d4-4f00-9169-b92981aee43d",
+    "createDate": 1632727100,
+    "modifyUser": "\/api\/3\/people\/f661cf65-91d4-4f00-9169-b92981aee43d",
+    "modifyDate": 1632727246,
+    "recordTags": []
+}

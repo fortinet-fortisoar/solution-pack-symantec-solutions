@@ -1,0 +1,15 @@
+{
+    "@context": "\/api\/3\/contexts\/WorkflowCollection",
+    "@type": "WorkflowCollection",
+    "name": "04 - Use Cases",
+    "description": null,
+    "visible": true,
+    "image": null,
+    "uuid": "d33185a2-a85b-4c22-b428-a82f3dc8238a",
+    "id": 104,
+    "createUser": "\/api\/3\/people\/f661cf65-91d4-4f00-9169-b92981aee43d",
+    "createDate": 1632727145,
+    "modifyUser": "\/api\/3\/people\/f661cf65-91d4-4f00-9169-b92981aee43d",
+    "modifyDate": 1632727259,
+    "recordTags": []
+}
