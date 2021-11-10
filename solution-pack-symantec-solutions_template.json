@@ -1,0 +1,40 @@
+[
+  {
+    "@type": "ExportTemplate",
+    "name": "solution-pack-symantec-solutions",
+    "lastExportDate": 1636554766,
+    "options": {
+      "roles": [],
+      "teams": [],
+      "views": [],
+      "actors": [],
+      "modules": [],
+      "reports": [],
+      "widgets": [],
+      "playbooks": {
+        "collections": [
+          "5ca04672-b2fb-4eff-b9ae-c1968b7886d8",
+          "d33185a2-a85b-4c22-b428-a82f3dc8238a"
+        ],
+        "globalVariables": [
+          "Demo_mode"
+        ],
+        "includeVersions": false
+      },
+      "connectors": [],
+      "dashboards": [],
+      "recordSets": [],
+      "appSettings": [],
+      "picklistNames": [],
+      "viewTemplates": [],
+      "globalVariables": [],
+      "playbookCollections": []
+    },
+    "uuid": "3372064d-0356-423b-9b68-3a419ff3fc8d",
+    "id": 1,
+    "createUser": "/api/3/people/3451141c-bac6-467c-8d72-85e0fab569ce",
+    "createDate": 1636554739,
+    "modifyUser": "/api/3/people/3451141c-bac6-467c-8d72-85e0fab569ce",
+    "modifyDate": 1636554761
+  }
+]
