@@ -1,8 +1,8 @@
 # solution-pack-symantec-solutions
 
-Pre-Requsite
+Pre-Requisite
 =============
-1. User need to import soultion-pack-incident-response zip to FortiSOAR instance.
+1. User needs to import solution-pack-incident-response zip to FortiSOAR instance.
 
 Steps to Install solution-pack-incident-response
 ==================================================
@@ -12,4 +12,4 @@ Steps to Install solution-pack-incident-response
 ![image](https://user-images.githubusercontent.com/46986647/141119387-2644051c-e962-4864-87a0-4ec9502007fa.png)
 3. Click on Import From File button
 ![image](https://user-images.githubusercontent.com/46986647/141119524-69fdcc6f-6979-4f26-82f3-78e645ace12b.png)
-4. Once Import is completed solution-pack-symantec-solutions is ready to use. 
+4. Once Import is completed solution-pack-Symantec-solutions is ready to use. 
