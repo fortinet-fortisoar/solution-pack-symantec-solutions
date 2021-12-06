@@ -6,7 +6,7 @@ This article describes the FortiSOAR™ Symantec Solutions Solution Pack (soluti
 
 FortiSOAR™ is built using modular architecture and the FortiSOAR™ Incident Response Solution Pack is the implementation of the best practices to configure and use FortiSOAR™ in an optimal manner. The FortiSOAR™ Incident Response Solution Pack also contains a lot of sample/simulation/training data that enables you to experience FortiSOAR™ without having all the devices.
 
-## Deploying Symantec Solutions IR Solution Pack
+## Deploying Symantec Solutions Solution Pack
 
 **Important**: Before you deploy the solution pack, ensure that you have deployed the FortiSOAR™ Incident Response Solution Pack (solution-pack-incident-response).
 
@@ -20,4 +20,4 @@ Use the following procedure as a *root* user to deploy the solution pack:
 4. On the `Import Wizard` page, click **Import From File** and selected the solution pack zip that you have downloaded, and navigate through the Import Wizard.
    ![Importing the IR Solution Pack zip file](media/importIRCP.png)
    **Note**: It is recommended not the change any configurations or options of the imported solution pack zip file.
-   Once the import is successfully completed, you can use the Symantec Solutions IR solution pack.
+   Once the import is successfully completed, you can use the Symantec Solutions solution pack.
