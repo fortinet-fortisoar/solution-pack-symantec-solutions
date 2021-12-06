@@ -1,10 +1,10 @@
-# Symantec Solutions Incident Response Solution Pack 7.0.2
+# Symantec Solutions Solution Pack 7.0.2
 
 ## Overview
 
-This article describes the FortiSOAR™ Symantec Solutions Incident Response Content Pack (solution-pack-multi-tenancy). This content pack enables users to experience the power and capability of FortiSOAR™ incident response for Symantec Solutions. 
+This article describes the FortiSOAR™ Symantec Solutions Solution Pack (solution-pack-symantec-solutions). This solution pack enables users to experience the power and capability of FortiSOAR™ incident response for Symantec Solutions. 
 
-FortiSOAR™ is built using modular architecture and the FortiSOAR™ Incident Response Content Pack is the implementation of the best practices to configure and use FortiSOAR™ in an optimal manner. The FortiSOAR™ Incident Response Content Pack also contains a lot of sample/simulation/training data that enables you to experience FortiSOAR™ without having all the devices.
+FortiSOAR™ is built using modular architecture and the FortiSOAR™ Incident Response Solution Pack is the implementation of the best practices to configure and use FortiSOAR™ in an optimal manner. The FortiSOAR™ Incident Response Solution Pack also contains a lot of sample/simulation/training data that enables you to experience FortiSOAR™ without having all the devices.
 
 ## Deploying Symantec Solutions IR Solution Pack
 
