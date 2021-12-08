@@ -1,0 +1,26 @@
+[
+    {
+        "name": "symantec-cloudsoc",
+        "label": "Symantec CloudSOC",
+        "category": "Cloud Security Log",
+        "description": "The Symantec CloudSOC platform enables companies to confidently leverage cloud applications and services while staying safe, secure, and compliant",
+        "publisher": null,
+        "version": "1.0.0",
+        "operation_roles": {
+            "get_logs": [],
+            "get_audit_data_source": [],
+            "get_audit_service": [],
+            "get_audit_user": [],
+            "get_audit_username": [],
+            "get_audit_summary": [],
+            "get_content_iqprofile": [],
+            "get_protect_policies": [],
+            "modify_user": []
+        },
+        "configurations": [],
+        "dataImports": [],
+        "rpm_name": "cyops-connector-symantec-cloudsoc-1.0.0",
+        "install_mode": "rpm",
+        "installer_path": "cyops-connector-symantec-cloudsoc-1.0.0"
+    }
+]
