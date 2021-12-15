@@ -1,0 +1,17 @@
+{
+    "name": "symantecSolutions",
+    "version": "1.0.0",
+    "display": "symantec Solutions",
+    "description": "Solution Pack for leveraging the symantec solutions in FortiSOAR",
+    "category": [],
+    "dependencies": [],
+    "publisher": "Fortinet",
+    "certified": "true",
+    "type": "solutionpack",
+    "supportInfo": "",
+    "help":"https://github.com/fortinet-fortisoar/solution-pack-symantec-solutions/blob/develop/README.md",
+    "tags": [],
+    "fsrCompatibility": [
+        "7.0.2"
+    ]
+}
