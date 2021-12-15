@@ -2,9 +2,7 @@
 
 ## Overview
 
-This article describes the FortiSOAR™ Symantec Solutions Solution Pack (solution-pack-symantec-solutions). This solution pack enables users to experience the power and capability of FortiSOAR™ incident response for Symantec Solutions. 
-
-FortiSOAR™ is built using modular architecture and the FortiSOAR™ Incident Response Solution Pack is the implementation of the best practices to configure and use FortiSOAR™ in an optimal manner. The FortiSOAR™ Incident Response Solution Pack also contains a lot of sample/simulation/training data that enables you to experience FortiSOAR™ without having all the devices.
+This article describes the FortiSOAR™ Symantec Solutions Solution Pack (solution-pack-symantec-solutions). This solution pack enables users to experience the power and capability of FortiSOAR™ incident response for Symantec Solutions. This solution pack provides capabilities that show case the Symantec Cloud SOC use case.
 
 ## Deploying Symantec Solutions Solution Pack
 
