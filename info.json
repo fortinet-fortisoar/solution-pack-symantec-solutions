@@ -1,8 +1,8 @@
 {
     "name": "symantecSolutions",
     "version": "1.0.0",
-    "display": "symantec Solutions",
-    "description": "Solution Pack for leveraging the symantec solutions in FortiSOAR",
+    "label": "Symantec Solutions",
+    "description": "Solution Pack for Leveraging the Symantec Solutions in FortiSOAR",
     "category": [],
     "dependencies": [],
     "publisher": "Fortinet",
@@ -11,7 +11,5 @@
     "supportInfo": "",
     "help":"https://github.com/fortinet-fortisoar/solution-pack-symantec-solutions/blob/develop/README.md",
     "tags": [],
-    "fsrCompatibility": [
-        "7.0.2"
-    ]
+    "fsrMinCompatibility": "7.0.2"
 }
