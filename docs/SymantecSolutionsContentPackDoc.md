@@ -10,8 +10,6 @@ FortiSOAR™ is built using modular architecture and the FortiSOAR™ Incident R
 
 **Important**: Before you deploy the solution pack, ensure that you have deployed the FortiSOAR™ Incident Response Solution Pack ([solution-pack-incident-response](https://github.com/fortinet-fortisoar/solution-pack-incident-response)).
 
-Use the following procedure as a *root* user to deploy the solution pack:
-
 1. Log onto the Solution Pack GIT repo [https://github.com/fortinet-fortisoar/solution-pack-symantec-solutions](https://github.com/fortinet-fortisoar/solution-pack-symantec-solutions) using your credentials.
 2. Click the **Code** button and select the **Download ZIP** option.  
    ![Fortinet-FortiSOAR GIT branch > Code >Download the solution pack zip](media/SymantecSolutionPackZip.png)
