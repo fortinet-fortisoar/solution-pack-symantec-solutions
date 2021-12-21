@@ -1,15 +1,11 @@
 # solution-pack-symantec-solutions
 
-Pre-Requisite
-=============
-1. User needs to import solution-pack-incident-response zip to FortiSOAR instance.
+The FortiSOAR™ Symantec Solutions Solution Pack (solution-pack-symantec-solutions) enables users to experience the power and capability of FortiSOAR™ incident response for Symantec Solutions. This solution pack provides capabilities that show case the Symantec Cloud SOC use case.
 
-Steps to Install solution-pack-incident-response
-==================================================
-1. Take the zip by downloading it from git itself
-![image](https://user-images.githubusercontent.com/46986647/141118994-303d391e-cc54-4eab-83d0-53fb75d80a78.png)
-2. Navigate to Import Wizard on FSR Instance
-![image](https://user-images.githubusercontent.com/46986647/141119387-2644051c-e962-4864-87a0-4ec9502007fa.png)
-3. Click on Import From File button
-![image](https://user-images.githubusercontent.com/46986647/141119524-69fdcc6f-6979-4f26-82f3-78e645ace12b.png)
-4. Once Import is completed solution-pack-Symantec-solutions is ready to use. 
+## Deploying Symantec Solutions Solution Pack
+
+**Important**: Before you deploy the solution pack, ensure that you have deployed the FortiSOAR™ Incident Response Solution Pack ([solution-pack-incident-response](https://github.com/fortinet-fortisoar/solution-pack-incident-response)).
+
+The steps for deploying a solution pack are mentioned in the [Deploying a Solution Pack](https://github.com/fortinet-fortisoar/how-tos/blob/main/DeployingASolutionPack.md) article.
+
+More information about the Symantec Solutions Solution Pack can be found [here](https://github.com/fortinet-fortisoar/solution-pack-symantec-solutions/blob/develop/docs/SymantecSolutionsContentPackDoc.md).
