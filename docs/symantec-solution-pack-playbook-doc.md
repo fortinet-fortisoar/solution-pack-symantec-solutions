@@ -25,5 +25,3 @@ Following is a table that lists the playbooks that are part of the “**04-Use C
 |2|Investigate Data Leakage Alert (Symantec CloudSOC)|Investigates a data leakage alert that is ingested from Symantec CloudSOC and performs containment and remediation tasks if sensitive data is leaked.|
 |3|Investigate Symantec EMail.Cloud Alert|Investigate data leakage alert  ingested from Symantec CloudSOC|
 |4|Remediate Malware Alert (Symantec EDR / ATP)|Remediate malware alert by blocking malicious entities|
-
-
