@@ -1,15 +1,43 @@
 {
     "name": "symantecSolutions",
     "version": "1.0.0",
+    "type": "solutionpack",
+    "local": false,
     "label": "Symantec Solutions",
-    "description": "Solution Pack for Leveraging the Symantec Solutions in FortiSOAR",
+    "dependencies": [
+      {
+        "name": "fortiSOAREssentials",
+        "type": "solutionpack",
+        "label": "FortiSOAR Essentials"
+      }
+    ],
+    "prerequisite": [],
     "category": [],
-    "dependencies": [],
-    "publisher": "Fortinet",
     "certified": "true",
-    "type": "multiContent",
     "supportInfo": "support@fortinet.com",
     "help":"https://github.com/fortinet-fortisoar/solution-pack-symantec-solutions/blob/develop/README.md",
     "tags": [],
-    "fsrMinCompatibility": "7.0.2"
-}
+    "publisher": "Fortinet",
+    "description": "Solution Pack for Leveraging the Symantec Solutions in FortiSOAR",
+    "fsrMinCompatibility": "7.2.0",
+    "date": "2022-02-11T14:44:34+00:00",
+    "exported_from": "fortisoar.localhost",
+    "exported_by": "CS Admin",
+    "contents": {
+      "playbooks": [
+        {
+          "name": "01 - Ingest"
+        },
+        {
+          "name": "04 - Use Cases"
+        }
+      ],
+      "connectors": [
+        {
+          "name": "Symantec CloudSOC",
+          "apiName": "symantec-cloudsoc",
+          "version": "1.0.0"
+        }
+      ]
+    }
+  }
