@@ -1,43 +1,53 @@
 {
     "name": "symantecSolutions",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "type": "solutionpack",
-    "local": false,
+    "local": true,
     "label": "Symantec Solutions",
     "dependencies": [
-      {
-        "name": "fortiSOAREssentials",
-        "type": "solutionpack",
-        "label": "FortiSOAR Essentials"
-      }
+        {
+            "name": "sOARFramework",
+            "type": "solutionpack",
+            "label": "SOAR Framework",
+            "version": "1.0.0",
+            "minVersion": null
+        },
+        {
+            "name": "socSimulator",
+            "type": "solutionpack",
+            "label": "SOC Simulator",
+            "version": "1.0.1",
+            "minVersion": null
+        }
     ],
-    "prerequisite": [],
-    "category": [],
+    "prerequisite": "",
     "certified": "true",
-    "supportInfo": "support@fortinet.com",
-    "help":"https://github.com/fortinet-fortisoar/solution-pack-symantec-solutions/blob/develop/README.md",
-    "tags": [],
     "publisher": "Fortinet",
     "description": "Solution Pack for Leveraging the Symantec Solutions in FortiSOAR",
+    "summary": null,
+    "help": "https:\/\/github.com\/fortinet-fortisoar\/solution-pack-symantec-solutions\/blob\/develop\/README.md",
+    "category": [],
+    "supportInfo": "support@fortinet.com",
+    "iconLarge": null,
     "fsrMinCompatibility": "7.2.0",
-    "date": "2022-02-11T14:44:34+00:00",
+    "date": "2022-03-09T19:06:54+00:00",
     "exported_from": "fortisoar.localhost",
     "exported_by": "CS Admin",
     "contents": {
-      "playbooks": [
-        {
-          "name": "01 - Ingest"
-        },
-        {
-          "name": "04 - Use Cases"
+        "playbooks": [
+            {
+                "name": "04 - Use Case - Symantec Solutions"
+            }
+        ],
+        "connectors": [
+            {
+                "name": "Symantec Email Security.cloud",
+                "apiName": "symantec-cloud",
+                "version": "2.0.1"
+            }
+        ],
+        "recordSets": {
+            "scenario": 1
         }
-      ],
-      "connectors": [
-        {
-          "name": "Symantec CloudSOC",
-          "apiName": "symantec-cloudsoc",
-          "version": "1.0.0"
-        }
-      ]
     }
-  }
+}

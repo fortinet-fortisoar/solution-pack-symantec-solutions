@@ -1,6 +1,7 @@
 [
-    "Subroutine",
-    "Attachments",
+    "FSRSolutionPack",
+    "sOARFramework-1.0.0",
     "PostCreate",
-    "Alerts"
+    "Alerts",
+    "Referenced"
 ]

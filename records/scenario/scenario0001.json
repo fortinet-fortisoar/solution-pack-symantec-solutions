@@ -1,0 +1,30 @@
+[
+    {
+        "@type": "Scenario",
+        "steps": {
+            "Steps": [
+                {
+                    "name": "Symantec Email.Cloud >Urgent: Details",
+                    "type": "executePlaybook",
+                    "playbookIRI": "\/api\/3\/workflows\/2c2e49f7-7018-423c-ba06-82d656104ec1",
+                    "preCreateMessage": "Creating demo record for Symantec Email Cloud ",
+                    "postCreateMessage": "",
+                    "waitTimeforNextStep": "5"
+                }
+            ]
+        },
+        "configuration": "Symantec",
+        "title": "Symantec Email Cloud",
+        "description": "Symantec Email Cloud ",
+        "createdAlertsID": null,
+        "uuid": "a9c730c3-fcd4-480c-9d8f-b1e26e7b6232",
+        "createUser": "\/api\/3\/appliances\/57545210-2adc-472b-a24f-2df6ee8dfe63",
+        "createDate": 1646799276.562632,
+        "modifyUser": "\/api\/3\/appliances\/57545210-2adc-472b-a24f-2df6ee8dfe63",
+        "modifyDate": 1646831967.943263,
+        "id": "18",
+        "recordTags": [
+            "FortiSOAR"
+        ]
+    }
+]

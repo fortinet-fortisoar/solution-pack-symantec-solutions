@@ -5,16 +5,16 @@
     "aliasName": null,
     "tag": "#PostCreate#Alert",
     "description": "Investigate Symantec EMail.Cloud Alert",
-    "isActive": false,
+    "isActive": true,
     "debug": false,
     "singleRecordExecution": false,
     "remoteExecutableFlag": false,
     "parameters": [],
     "synchronous": false,
-    "lastModifyDate": 1638454231,
-    "collection": "\/api\/3\/workflow_collections\/d33185a2-a85b-4c22-b428-a82f3dc8238a",
+    "lastModifyDate": 1646833411,
+    "collection": "\/api\/3\/workflow_collections\/59667fcc-7feb-4ba4-a5a2-e03a9287f857",
     "versions": [],
-    "triggerStep": "\/api\/3\/workflow_steps\/bd8dac2c-8c27-42f1-b113-a685931fea91",
+    "triggerStep": "\/api\/3\/workflow_steps\/a6610647-add2-44f6-bec4-31da4a5f17d8",
     "steps": [
         {
             "@type": "WorkflowStep",
@@ -29,8 +29,7 @@
             "top": "165",
             "left": "125",
             "stepType": "\/api\/3\/workflow_step_types\/04d0cf46-b6a8-42c4-8683-60a7eaa69e8f",
-            "uuid": "02a92567-ee16-4d98-affb-3f5d9f13fe2f",
-            "id": 285
+            "uuid": "b7ef0cb1-7932-40b7-9ded-850ee099b39c"
         },
         {
             "@type": "WorkflowStep",
@@ -59,8 +58,7 @@
             "top": "570",
             "left": "125",
             "stepType": "\/api\/3\/workflow_step_types\/74932bdc-b8b6-4d24-88c4-1a4dfbc524f3",
-            "uuid": "1cfcd942-5800-4e57-a9ed-bcea2cd13aca",
-            "id": 288
+            "uuid": "95d65d2b-e07c-47d9-8442-20bd17d3859c"
         },
         {
             "@type": "WorkflowStep",
@@ -89,8 +87,7 @@
             "top": "435",
             "left": "125",
             "stepType": "\/api\/3\/workflow_step_types\/74932bdc-b8b6-4d24-88c4-1a4dfbc524f3",
-            "uuid": "37f751de-d567-4d6d-b3d3-11ebd102965c",
-            "id": 287
+            "uuid": "702ada54-efa0-479d-b5a1-6476403c153f"
         },
         {
             "@type": "WorkflowStep",
@@ -115,8 +112,7 @@
             "top": "705",
             "left": "125",
             "stepType": "\/api\/3\/workflow_step_types\/74932bdc-b8b6-4d24-88c4-1a4dfbc524f3",
-            "uuid": "aaf7c02e-fb41-4629-8029-3a0d14c08e0b",
-            "id": 286
+            "uuid": "8e9daeff-bada-4e21-8f2a-481b985f07d5"
         },
         {
             "@type": "WorkflowStep",
@@ -129,6 +125,7 @@
                 ],
                 "step_variables": {
                     "input": {
+                        "params": [],
                         "records": [
                             "{{vars.input.records[0]}}"
                         ]
@@ -144,7 +141,7 @@
                             "field": "type",
                             "value": "\/api\/3\/picklists\/c145394b-069a-449b-a05e-67980d0f4b82",
                             "_value": {
-                                "display": "Suspicious Email",
+                                "@id": "\/api\/3\/picklists\/c145394b-069a-449b-a05e-67980d0f4b82",
                                 "itemValue": "Suspicious Email"
                             },
                             "operator": "eq"
@@ -163,8 +160,7 @@
             "top": "30",
             "left": "125",
             "stepType": "\/api\/3\/workflow_step_types\/ea155646-3821-4542-9702-b246da430a8d",
-            "uuid": "bd8dac2c-8c27-42f1-b113-a685931fea91",
-            "id": 289
+            "uuid": "a6610647-add2-44f6-bec4-31da4a5f17d8"
         },
         {
             "@type": "WorkflowStep",
@@ -205,68 +201,63 @@
             "top": "300",
             "left": "125",
             "stepType": "\/api\/3\/workflow_step_types\/b593663d-7d13-40ce-a3a3-96dece928722",
-            "uuid": "fc4d20dc-4adf-492a-b838-31594801e46a",
-            "id": 284
+            "uuid": "f9f49c64-d8f2-4c69-956b-48d64f67b419"
         }
     ],
     "routes": [
         {
             "@type": "WorkflowRoute",
             "name": "Create Indicator for File MD5 -> Copy  of Create Indicator for File MD5",
-            "targetStep": "\/api\/3\/workflow_steps\/1cfcd942-5800-4e57-a9ed-bcea2cd13aca",
-            "sourceStep": "\/api\/3\/workflow_steps\/37f751de-d567-4d6d-b3d3-11ebd102965c",
+            "targetStep": "\/api\/3\/workflow_steps\/95d65d2b-e07c-47d9-8442-20bd17d3859c",
+            "sourceStep": "\/api\/3\/workflow_steps\/702ada54-efa0-479d-b5a1-6476403c153f",
             "label": null,
             "isExecuted": false,
-            "uuid": "df60d0a1-e96a-45a9-992c-072b955f0ad0"
+            "uuid": "d000f7e0-53a8-4656-92a6-d43c633e110b"
         },
         {
             "@type": "WorkflowRoute",
             "name": "Configuration -> Start Investigation",
-            "targetStep": "\/api\/3\/workflow_steps\/fc4d20dc-4adf-492a-b838-31594801e46a",
-            "sourceStep": "\/api\/3\/workflow_steps\/02a92567-ee16-4d98-affb-3f5d9f13fe2f",
+            "targetStep": "\/api\/3\/workflow_steps\/f9f49c64-d8f2-4c69-956b-48d64f67b419",
+            "sourceStep": "\/api\/3\/workflow_steps\/b7ef0cb1-7932-40b7-9ded-850ee099b39c",
             "label": null,
             "isExecuted": false,
-            "uuid": "156cc553-880e-4560-9694-e148009f252d"
+            "uuid": "11595772-7adc-4886-8df6-d34b3b90e8dc"
         },
         {
             "@type": "WorkflowRoute",
             "name": "Start -> Configuration",
-            "targetStep": "\/api\/3\/workflow_steps\/02a92567-ee16-4d98-affb-3f5d9f13fe2f",
-            "sourceStep": "\/api\/3\/workflow_steps\/bd8dac2c-8c27-42f1-b113-a685931fea91",
+            "targetStep": "\/api\/3\/workflow_steps\/b7ef0cb1-7932-40b7-9ded-850ee099b39c",
+            "sourceStep": "\/api\/3\/workflow_steps\/a6610647-add2-44f6-bec4-31da4a5f17d8",
             "label": null,
             "isExecuted": false,
-            "uuid": "581b4a73-ade4-4493-a122-e2946c22e5a2"
+            "uuid": "d11f324f-5f24-492a-92c2-491ae553ca75"
         },
         {
             "@type": "WorkflowRoute",
             "name": "Create Indicator for URL -> Copy  of Create Indicator for URL",
-            "targetStep": "\/api\/3\/workflow_steps\/aaf7c02e-fb41-4629-8029-3a0d14c08e0b",
-            "sourceStep": "\/api\/3\/workflow_steps\/1cfcd942-5800-4e57-a9ed-bcea2cd13aca",
+            "targetStep": "\/api\/3\/workflow_steps\/8e9daeff-bada-4e21-8f2a-481b985f07d5",
+            "sourceStep": "\/api\/3\/workflow_steps\/95d65d2b-e07c-47d9-8442-20bd17d3859c",
             "label": null,
             "isExecuted": false,
-            "uuid": "84bce29e-98c3-4013-8164-1e51b5658518"
+            "uuid": "60ee3fcb-876a-4ac1-ab2a-0e69ab129dc9"
         },
         {
             "@type": "WorkflowRoute",
             "name": "Start Investigation -> Create Indicator for File MD5",
-            "targetStep": "\/api\/3\/workflow_steps\/37f751de-d567-4d6d-b3d3-11ebd102965c",
-            "sourceStep": "\/api\/3\/workflow_steps\/fc4d20dc-4adf-492a-b838-31594801e46a",
+            "targetStep": "\/api\/3\/workflow_steps\/702ada54-efa0-479d-b5a1-6476403c153f",
+            "sourceStep": "\/api\/3\/workflow_steps\/f9f49c64-d8f2-4c69-956b-48d64f67b419",
             "label": null,
             "isExecuted": false,
-            "uuid": "b08765c4-b8f1-4a4a-bfaf-3721be27318a"
+            "uuid": "b339b800-fe97-4b35-916e-42cb102977ae"
         }
     ],
     "priority": null,
     "uuid": "85da9d78-71f0-4f05-b225-aca4c15215c0",
+    "owners": [],
+    "isPrivate": false,
+    "deletedAt": null,
     "recordTags": [
         "PostCreate",
         "Alerts"
-    ],
-    "id": 70,
-    "createUser": "\/api\/3\/people\/3451141c-bac6-467c-8d72-85e0fab569ce",
-    "createDate": 1638454232,
-    "modifyUser": "\/api\/3\/people\/3451141c-bac6-467c-8d72-85e0fab569ce",
-    "modifyDate": 1638454232,
-    "owners": [],
-    "isPrivate": false
+    ]
 }
