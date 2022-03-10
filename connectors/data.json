@@ -1,26 +1,29 @@
 [
     {
-        "name": "symantec-cloudsoc",
-        "label": "Symantec CloudSOC",
-        "category": "Cloud Security Log",
-        "description": "The Symantec CloudSOC platform enables companies to confidently leverage cloud applications and services while staying safe, secure, and compliant",
+        "name": "symantec-cloud",
+        "label": "Symantec Email Security.cloud",
+        "category": "Email Security",
+        "description": "Symantec Email Security.cloud stops targeted spear phishing and other email threats by blocking sender IP, Domain and Email address etc.",
         "publisher": null,
-        "version": "1.0.0",
+        "version": "2.0.1",
         "operation_roles": {
-            "get_logs": [],
-            "get_audit_data_source": [],
-            "get_audit_service": [],
-            "get_audit_user": [],
-            "get_audit_username": [],
-            "get_audit_summary": [],
-            "get_content_iqprofile": [],
-            "get_protect_policies": [],
-            "modify_user": []
+            "block_ip": [],
+            "block_domain": [],
+            "block_email": [],
+            "block_url": [],
+            "block_subject": [],
+            "block_md5": [],
+            "block_sha2": [],
+            "merge_iocs": [],
+            "replace_iocs": [],
+            "renewall_ioc": [],
+            "delete_ioc": [],
+            "download_iocs": []
         },
         "configurations": [],
         "dataImports": [],
-        "rpm_name": "cyops-connector-symantec-cloudsoc-1.0.0",
+        "rpm_name": "cyops-connector-symantec-cloud-2.0.1",
         "install_mode": "rpm",
-        "installer_path": "cyops-connector-symantec-cloudsoc-1.0.0"
+        "installer_path": "cyops-connector-symantec-cloud-2.0.1"
     }
 ]
