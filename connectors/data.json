@@ -5,7 +5,6 @@
         "category": "Email Security",
         "description": "Symantec Email Security.cloud stops targeted spear phishing and other email threats by blocking sender IP, Domain and Email address etc.",
         "publisher": null,
-        "version": "2.0.1",
         "operation_roles": {
             "block_ip": [],
             "block_domain": [],
@@ -22,8 +21,6 @@
         },
         "configurations": [],
         "dataImports": [],
-        "rpm_name": "cyops-connector-symantec-cloud-2.0.1",
-        "install_mode": "rpm",
-        "installer_path": "cyops-connector-symantec-cloud-2.0.1"
+        "install_mode": "rpm"
     }
 ]

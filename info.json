@@ -21,18 +21,15 @@
         }
     ],
     "prerequisite": "",
-    "certified": "true",
+    "certified": "false",
     "publisher": "Fortinet",
-    "description": "Solution Pack for Leveraging the Symantec Solutions in FortiSOAR",
-    "summary": null,
+    "description": "Solution Pack for Leveraging the Symantec Solutions in FortiSOAR. One of the important integration used in this solution pack is Symantec Email Security.cloud.",
     "help": "https:\/\/github.com\/fortinet-fortisoar\/solution-pack-symantec-solutions\/blob\/develop\/README.md",
     "category": [],
-    "supportInfo": "support@fortinet.com",
+    "supportInfo": "",
     "iconLarge": null,
     "fsrMinCompatibility": "7.2.0",
-    "date": "2022-03-09T19:06:54+00:00",
-    "exported_from": "fortisoar.localhost",
-    "exported_by": "CS Admin",
+    "date": "2022-04-08T18:50:22+00:00",
     "contents": {
         "playbooks": [
             {
@@ -42,12 +39,15 @@
         "connectors": [
             {
                 "name": "Symantec Email Security.cloud",
-                "apiName": "symantec-cloud",
-                "version": "2.0.1"
+                "apiName": "symantec-cloud"
             }
         ],
-        "recordSets": {
-            "scenario": 1
-        }
+        "recordSets": [
+            {
+                "name": "Scenario",
+                "apiName": "scenario",
+                "count": 1
+            }
+        ]
     }
 }
