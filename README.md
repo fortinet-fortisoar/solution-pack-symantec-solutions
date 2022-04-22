@@ -1,4 +1,4 @@
-# Symantec Solutions - Solution Pack
+# Symantec Solutions Solution Pack
 
 ## Release Information
 
@@ -11,15 +11,15 @@
 
 ### Introduction
 
-*Symantec Solutions* is designed to provide a set of investigation playbooks to respond to phising email reported by Symantec Email.Cloud.
+*Symantec Solutions* is designed to provide a set of investigation playbooks to respond to phishing email reported by Symantec Email.Cloud.
 
-Configure Symantec Email Security.cloud Connectors and ingest email of type 'Phishing', and then triggers the response workflow.
+Configure Symantec Email Security.Cloud Connectors and ingest email of type 'Phishing', and then triggers the response workflow.
 
-Refer to Simulation Scenarion - "Symantec Email Cloud" to experience the use case without any connector configuration.
+Refer to Simulation Scenario - "Symantec Email Cloud" to experience the use case without any connector configuration.
 
 ### Usage
 
-This Solution Pack ships with following simulation scenarios. [Refer](https://github.com/fortinet-fortisoar/solution-pack-soc-simulator/blob/develop/docs/solution-pack-guide.md) to Simulate Scenario documentation to undersand how to Simulate and Reset Scenario.
+This Solution Pack ships with the following simulation scenarios. [Refer](https://github.com/fortinet-fortisoar/solution-pack-soc-simulator/blob/develop/docs/solution-pack-guide.md) to Simulate Scenario documentation to understand how to Simulate and Reset Scenario.
 
 #### 1. Scenario - Symantec Email Cloud
 
@@ -27,7 +27,7 @@ The scenario generates a demo alert of Type 'Phishing'.
 
 Goto generated alert and observe the following:
 
-- Reported Email contains file information like malware name, filename, malware category, filehash etc.
+- Reported Email contains file information like malware name, filename, malware category, file hash etc.
 - Reported Information (sender, email message) is presented for analyzing the case.
 
 **Investigate Symantec EMail.Cloud Alert** : Launch "Investigate Symantec EMail.Cloud Alert" Playbook and observe various investigation activities such as
@@ -41,7 +41,7 @@ Goto generated alert and observe the following:
 - Lookup for Malicious Indicator
 - Escalate Alert to Incident
 - Find similar Alerts
-- Mark Incident as Campaign
+- Mark Incident as a Campaign
 
 ## Prerequisites
 
@@ -67,6 +67,6 @@ Goto generated alert and observe the following:
     | :- | :- | :- |
     |1|Investigate and Escalate Symantec Email.Cloud Phishing Alert|Investigate Phishing Alert, and Escalate to Incident if Malicious Indicators are found|
     |2|Investigate Symantec EMail.Cloud Alert|Investigate Symantec EMail.Cloud Alert|
-    |3|Generate - Symantec Email.Cloud | Create single alert for symantec Email.Cloud Phishing Alert|
+    |3|Generate - Symantec Email.Cloud | Create single alert for Symantec Email.Cloud Phishing Alert|
 
      **Warning:** It is recommended to clone these Playbooks before any customizations to avoid loss of information while upgrading the Solution Pack.
