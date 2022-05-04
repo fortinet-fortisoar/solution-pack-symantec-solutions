@@ -1,11 +1,11 @@
 # FortiSOAR Symantec Solutions Solution Pack – Out-of-the box Playbooks Collections
 
-The FortiSOAR™ Symantec Solutions Solution Pack (solution-pack-symantec-solutions). This solution pack enables users to experience the power and capability of FortiSOAR™ incident response for Symantec Solutions. This solution pack provides capabilities that show case the Symantec Cloud SOC use case.
+The FortiSOAR™ Symantec Solutions Solution Pack (solution-pack-symantec-solutions). This solution pack enables users to experience the power and capability of FortiSOAR™ incident response for Symantec Solutions. This solution pack provides capabilities that showcase the Symantec Cloud SOC use case.
 
 ## Ingestion Playbook Collection
-You can use the playbooks in the *01 – Ingest* collection to perform various operations such as fetching incident details, using Symantec Could.
+You can use the playbooks in the *01 – Ingest* collection to perform various operations such as fetching incident details using Symantec Could.
 
-Following is a table that lists the playbooks that are part of the “**01 - Ingest**” collection in the Solution Pack:
+Following is a table that lists the playbooks that are part of the **01 - Ingest** collection in the Solution Pack:
 
 |**SN**|**Playbook Name**|**Description**|
 | :- | :- | :- |
@@ -16,7 +16,7 @@ Following is a table that lists the playbooks that are part of the “**01 - Ing
 ## Use Cases Playbook Collection
 You can use the playbooks in the *04-Use Cases* collection to understand and perform various tasks or steps needed to deal with an incident, such as a Phishing attack or a Brute Force Attempt.
 
-Following is a table that lists the playbooks that are part of the “**04-Use Cases**” collection in the Solution Pack:
+Following is a table that lists the playbooks that are part of the **04-Use Cases** collection in the Solution Pack:
 
 
 |**Sr. No.**|**Playbook Name**|**Description**|
