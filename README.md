@@ -21,7 +21,7 @@ Refer to [Simulate Scenario documentation](https://github.com/fortinet-fortisoar
 
 This Solution Pack ships with the following simulation scenarios.
 
-#### 1. Scenario - Symantec Email Cloud
+#### Scenario - Symantec Email Cloud
 
 The scenario generates a demo alert of Type 'Phishing'.
 
@@ -65,8 +65,8 @@ Navigate to the generated alert and observe the following:
 
     |**SN**|**Playbook Name**|**Description**|
     | :- | :- | :- |
-    |1|Investigate and Escalate Symantec Email.Cloud Phishing Alert|Investigate Phishing Alert, and Escalate to Incident if Malicious Indicators are found|
-    |2|Investigate Symantec EMail.Cloud Alert|Investigate Symantec EMail.Cloud Alert|
-    |3|Generate - Symantec Email.Cloud | Create single alert for Symantec Email.Cloud Phishing Alert|
+    |1|Investigate and Escalate Symantec **Email.Cloud** Phishing Alert|Investigate Phishing Alert, and Escalate to Incident if Malicious Indicators are found|
+    |2|Investigate Symantec **EMail.Cloud** Alert|Investigate Symantec **EMail.Cloud** Alert|
+    |3|Generate - Symantec **EMail.Cloud** | Create single alert for Symantec **EMail.Cloud** Phishing Alert|
 
      **Warning:** It is recommended to clone these Playbooks before any customizations to avoid loss of information while upgrading the Solution Pack.
