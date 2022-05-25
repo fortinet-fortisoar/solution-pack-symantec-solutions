@@ -1,5 +1,4 @@
 [
-    "PostCreate",
-    "Alerts",
-    "Referenced"
+    "Referenced",
+    "ManualTrigger"
 ]

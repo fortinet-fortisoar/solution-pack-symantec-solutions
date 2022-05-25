@@ -7,24 +7,24 @@
                     "name": "Symantec Email.Cloud >Urgent: Details",
                     "type": "executePlaybook",
                     "playbookIRI": "\/api\/3\/workflows\/2c2e49f7-7018-423c-ba06-82d656104ec1",
-                    "preCreateMessage": "Creating demo record for Symantec Email Cloud ",
-                    "postCreateMessage": "",
+                    "preCreateMessage": "Creating demo record for Symantec Email Cloud.",
+                    "postCreateMessage": "Demo record for Symantec Email Cloud has been created.",
                     "waitTimeforNextStep": "5"
                 }
             ]
         },
         "configuration": "Symantec",
         "title": "Symantec Email Cloud",
-        "description": "Symantec Email Cloud ",
+        "description": "The scenario creates a demo records for phishing emails reported by Symantec Email Cloud\nNavigate to the generated alert and observe the following:\n* Reported Email contains file information like malware name, filename, malware category, file hash etc.\n* Reported Information (sender, email message) is presented for analyzing the case.",
         "createdAlertsID": null,
         "uuid": "a9c730c3-fcd4-480c-9d8f-b1e26e7b6232",
         "createUser": "\/api\/3\/appliances\/57545210-2adc-472b-a24f-2df6ee8dfe63",
         "createDate": 1646799276.562632,
         "modifyUser": "\/api\/3\/appliances\/57545210-2adc-472b-a24f-2df6ee8dfe63",
-        "modifyDate": 1646831967.943263,
-        "id": "18",
+        "modifyDate": 1653473483.31408,
+        "id": 2,
         "recordTags": [
-            "FortiSOAR"
+            "Phishing"
         ]
     }
 ]
