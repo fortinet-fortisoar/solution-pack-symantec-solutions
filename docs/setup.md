@@ -4,7 +4,7 @@
 # Installation
 
 1. To install a solution pack, click **Content Hub** > **Discover**.
-2. From the list of solution pack that appears, search for and select **Symantec Solutions**.
+2. From the list of solution packs that appears, search for and select **Symantec Solutions**.
 3. Click the **Symantec Solutions** solution pack card.
 4. Click **Install** on the bottom to begin installation.
 
