@@ -1,6 +1,6 @@
 {
     "name": "symantecSolutions",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "type": "solutionpack",
     "local": true,
     "label": "Symantec Solutions",
@@ -24,16 +24,27 @@
     "certified": "false",
     "publisher": "Fortinet",
     "description": "Solution Pack for Leveraging the Symantec Solutions in FortiSOAR. One of the important integration used in this solution pack is Symantec Email Security.cloud.",
-    "help": "https:\/\/github.com\/fortinet-fortisoar\/solution-pack-symantec-solutions\/blob\/develop\/README.md",
+    "help": "https://github.com/fortinet-fortisoar/solution-pack-symantec-solutions/blob/release/1.0.2/README.md",
     "category": [],
-    "supportInfo": "",
+    "supportInfo": "Fortinet Customer Support",
     "iconLarge": null,
+    "recordTags": [
+        "Phishing"
+    ],
     "fsrMinCompatibility": "7.2.0",
     "date": "2022-04-08T18:50:22+00:00",
     "contents": {
         "playbooks": [
             {
                 "name": "02 - Use Case - Symantec Solutions"
+            }
+        ],
+        "globalVariables": [
+            {
+                "id": 16,
+                "name": "Demo_mode",
+                "value": "true",
+                "default_value": "true"
             }
         ],
         "connectors": [

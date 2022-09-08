@@ -1,4 +1,4 @@
-| [Home](https://github.com/fortinet-fortisoar/solution-pack-symantec-solutions/blob/develop/README.md) | 
+| [Home](https://github.com/fortinet-fortisoar/solution-pack-symantec-solutions/tree/release/1.0.2/README.md) | 
 |--------------------------------------------|
 
 # Usage
@@ -19,12 +19,6 @@ Navigate to the generated alert and note the following:
     - malware category
     - file hash
 - Reported Information (sender, email message) is presented for analyzing the case.
-
-**Investigate Symantec EMail.Cloud Alert** : Users can launch **Investigate Symantec EMail.Cloud Alert** playbook from an alert. This playbook performs following automated tasks:
-
-- Creating indicators for File MD5
-- Creating indicators for URL
-- Creating indicators for Email
 
 **Investigate and Escalate Symantec Email.Cloud Phishing Alert**: Users can launch **Investigate and Escalate Symantec Email.Cloud Phishing Alert** playbook from an alert. This playbook performs following automated tasks:
 
